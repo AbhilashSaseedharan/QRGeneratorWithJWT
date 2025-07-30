@@ -1,0 +1,47 @@
+# Ignore everything
+/*
+
+# But not these directories/files
+!src/
+!pom.xml
+!mvnw
+!mvnw.cmd
+
+# Don't ignore these subfolders/files in src
+!src/main/
+!src/main/java/
+!src/main/resources/
+!src/test/
+!src/test/java/
+
+# Allow all java source files
+!src/**/*.java
+
+# Allow all resource files
+!src/main/resources/**
+
+# Ignore logs, build, and target
+logs/
+target/
+*.log
+*.gz
+
+# Ignore IDE and OS files
+.idea/
+*.iml
+*.swp
+.DS_Store
+*.class
+
+# Ignore other build artifacts
+*.jar
+*.war
+*.ear
+
+# Ignore generated files
+**/generated-sources/
+**/generated-test-sources/
+**/maven-archiver/
+**/maven-status/
+**/surefire-reports/
+
